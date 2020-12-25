@@ -1,0 +1,87 @@
+body {
+  background-image: url("../images/photo-1518186285589-2f7649de83e0.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: "Alegreya SC", serif !important; */
+}
+#currency1,
+#currency2 {
+  width: 100% !important;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.vedios {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.result {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9 !important;
+}
+.btn {
+  font-weight: 600;
+  font-family: "Alegreya SC", serif;
+}
+#curr2Amount,
+#curr1Amount {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+input:focus {
+  outline: none;
+}
+::-webkit-inner-spin-button {
+  appearance: none;
+}
+#rate {
+  color: #e8e7d9 !important;
+  font-weight: 500;
+  font-size: 1.2rem !important;
+}
+.overlay,
+.load {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 00, 0, 0.6);
+}
+.load {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.load i {
+  color: rgb(187, 255, 0);
+  font-size: 4rem;
+}
+.btn {
+  transition: all 0.5s !important;
+}
+.color-mine {
+  color: rgb(187, 255, 0);
+  margin-left: 10px;
+}
+.btn-outline-dark {
+  border-color: rgb(187, 255, 0) !important;
+}
+
+.btn-outline-dark:hover {
+  background-color: rgb(187, 255, 0) !important ;
+  color: rgba(0, 00, 0) !important;
+}
